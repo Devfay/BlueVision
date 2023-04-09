@@ -142,9 +142,6 @@ hr.rounded{
     margin-top: -10px;
     padding: 8px;
   }
-  .trending {
-    display: none;
-  }
 }
 /* Pour les écrans de taille moyenne comme les tablettes */
 @media (min-width: 768px) and (max-width: 991px) {
@@ -153,8 +150,17 @@ hr.rounded{
     font-size: 16px;
     margin-top: -18px;
     padding: 12px;
+}
+
+/* Pour les écrans de petite taille comme les smartphones */
+@media (max-width: 480px) {
+  .trending {
+    display: none;
   }
-   .trending {
+}
+/* Pour les écrans de taille moyenne comme les tablettes */
+@media (min-width: 768px) and (max-width: 991px) {
+  .trending {
     display: none;
   }
 }
